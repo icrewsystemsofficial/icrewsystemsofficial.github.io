@@ -1,0 +1,80 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.icon {
+  color: #4aca85 !important;
+}
+
+/* #career {
+  color: white;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(90deg, rgba(9, 9, 121, 1) 2%, rgba(35, 98, 204, 1) 100%);
+}
+#career:hover {
+  color: #26beff;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(90deg, rgba(9, 9, 121, 1) 2%, rgba(35, 98, 204, 1) 100%);
+} */
+
+#nav {
+  text-decoration: none;
+  color: #49097a;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#nav:hover {
+  text-decoration: none;
+  color: #26beff;
+  font-weight: bold;
+}
+
+#humanityprojects .col-md-6.animate-box {
+  margin: 20px auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Languages */
+.languages .flex {
+  flex-wrap: wrap;
+}
+
+.languages .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+  width: 200px;
+}
+
+.languages .card img {
+  max-width: 100%;
+}
+
+.languages .card:hover {
+  transform: translateY(-15px);
+}
+
+.languages .card .h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.colorlib-footer-links a:hover {
+  text-decoration: underline !important;
+}
