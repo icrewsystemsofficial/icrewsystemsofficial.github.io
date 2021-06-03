@@ -6,6 +6,17 @@ html {
   color: #4aca85 !important;
 }
 
+.hero-section.animate-box * {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.hero-section.animate-box .primary__heading {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #333 !important;
+  font-size: 4rem !important;
+}
+
 /* #career {
   color: white;
   background: rgb(9, 9, 121);
@@ -19,15 +30,16 @@ html {
 
 #nav {
   text-decoration: none;
-  color: #49097a;
-  font-weight: bold;
-  font-size: 13px;
+  color: rgb(97, 102, 99);
+  font-size: 1.5rem;
+  transition: all 0.1s ease-in;
 }
 
 #nav:hover {
-  text-decoration: none;
-  color: #26beff;
-  font-weight: bold;
+  /* text-decoration: underline; */
+  color: #4aca85;
+  /* font-weight: bold; */
+  border-bottom: 2px solid #4aca85;
 }
 
 #humanityprojects .col-md-6.animate-box {
@@ -77,4 +89,23 @@ html {
 
 .colorlib-footer-links a:hover {
   text-decoration: underline !important;
+}
+
+.colorlib-social-icons a {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 969px) {
+  .col-md-6.animate-box .mobile-img {
+    background-size: cover !important;
+    /* width: 300px; */
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .row.mobile-wrap {
+    display: flex;
+    align-items: center;
+    /* width: 300px; */
+  }
 }
